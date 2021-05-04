@@ -81,8 +81,7 @@ body{
 	width:100%;
 }
 .box-content{
-	float:right;
-	width:560px;
+	/* float:right; */
 	background: #b5c7d8;
     padding: 40px;
 	border-radius:10px;
