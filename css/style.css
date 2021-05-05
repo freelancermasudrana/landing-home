@@ -144,41 +144,37 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.footer-widget{
-    max-width: 20%;
-	width:100%;
-    padding-right: 5px;
+.footer-widget ul li {
+    line-height: 28px;
 }
-.footer-widget h3{
+.footer-widget h4{
 	color: #fff;
-    font-size: 26px;
-    font-weight: 600;
 	margin-bottom:25px;
+    padding-right: 15px;
+
 }
 .footer-widget ul{
 	list-style:none;
 }
-.footer-widget ul li{}
+.footer-widget ul li{
+    line-height: 29px;
+}
 .footer-widget ul li a{
 	color: #fff;
     font-size: 14px;
     display: inline-block;
     text-decoration: none;
 }
-.footer-lastone{
-	width:70%;
-}
 .footer-lastone h6{
     margin-bottom: 0px;
     color: #fff;
     font-size: 14px;
-    width: 68%;
     margin-left: 25px;
     font-weight: 300;
     margin-top: 10px;
 }
 .footer-lasttwo{
-	width:30%;
+
 	margin-top: 4px;
 }
 .footer-lasttwo span{
@@ -504,14 +500,14 @@ ul.sub-menu li:before,
     display: block;
     opacity: 1;
 }
-.our-plan-grid > ul{
+/* .our-plan-grid > ul{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 .our-plan-grid > ul > li{
     width: 33.33%;
-}
+} */
 .our-plan-item{
     min-height: 350px;
     box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
@@ -598,10 +594,8 @@ ul.sub-menu li:before,
 
 
 
-@media(max-width: 767px){
-    .footer-widget{
-        max-width: 100%;
-        margin-bottom: 30px;
-        text-align: center;
+@media(max-width: 575px){
+    .footer-widget ul li{
+        border-bottom: 2px solid white;
     }
 }
